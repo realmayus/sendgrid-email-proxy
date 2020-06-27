@@ -10,7 +10,7 @@ A very simple email proxy which uses SendGrid's webhooks to redirect any incomin
   ```json
   {
     "sendgridKey": "Your SendGrid API key",
-    "destinationEmailAddress": "The email address the proxy should redirects incoming emails to"
+    "destinationEmailAddress": "The email address the proxy should redirect incoming emails to"
   }
   ```
 5. use `deno run --allow-net --allow-read index.ts` to start the proxy.
